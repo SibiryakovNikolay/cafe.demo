@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Reserved</title>
+    <link rel="stylesheet" href="css/table-reserved.css">
+</head>
+<body>
+<div th:switch="${tables}">
+    <h2 th:case="null">нет заявок</h2>
+    <div th:case="*">
+        <h2>заявки</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>имя</th>
+                <th>дата</th>
+                <th>время</th>
+                <th>телефон</th>
+                <th>статус</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="table : ${tables}">
+                <td th:text="${table.id}"></td>
+                <td th:text="${table.name}"></td>
+                <td th:text="${table.dateReserve}"></td>
+                <td th:text="${table.timeReserve}"></td>
+                <td th:text="${table.phoneNumber}"></td>
+                <td th:text="${table.confirm}"></td>
+                <td><a th:href="@{/update/{id}(id=${table.id})}">Изменить</a></td>
+                <td><a th:href="@{/delete/{id}(id=${table.id})}">Удалить</a></td>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <br>
+    <input type="button" value="Вернуться"
+           onclick="window.location.href='/'">
+</div>
+
+</body>
+</html>

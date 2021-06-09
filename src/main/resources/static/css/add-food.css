@@ -1,0 +1,17 @@
+header {
+    text-align: center
+}
+
+.error {
+    color: red
+}
+
+body {
+    width: 1140px;
+    margin: 20px 20px 20px 20px;
+    background-color: darkgray
+}
+
+label {
+    font-size: 20px
+}

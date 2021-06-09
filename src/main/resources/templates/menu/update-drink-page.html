@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Update drink</title>
+        <link rel="stylesheet" href="/css/update-drink.css">
+    </head>
+    <body>
+        <header>
+            <h1>Обновление позиции</h1>
+        </header>
+        <form th:action="@{/drinks}" th:object="${drink}" th:method="post">
+            <label for="id">ID</label>
+            <input readonly type="number" th:field="*{id}" id="id" placeholder="ID">
+            <br/>
+            <label for="Name">Название</label>
+            <input type="text" th:field="*{name}" id="name" placeholder="название"/>
+            <div class="error" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Error</div>
+            <br/>
+            <label for="bottle_volume">Объем(мл)</label>
+            <input type="text" th:field="*{bottleVolume}" id="bottle_volume" placeholder="объем"/>
+            <br/>
+            <label for="cost">Цена</label>
+            <input type="text" th:field="*{cost}" id="cost" placeholder="цена"/>
+            <br/>
+            <input type="submit" value="Обновить">
+            <br>
+            <input type="button" value="Назад"
+                   onclick="window.location.href='/drinks'"/>
+            <input type="button" value="Вернуться"
+                   onclick="window.location.href='/'">
+        </form>
+    </body>
+</html>

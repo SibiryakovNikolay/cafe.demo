@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
+    <head>
+     <link rel="stylesheet" href="css/drink.css">
+        <meta charset="UTF-8">
+        <title>Drink</title>
+    </head>
+    <body>
+        <header>
+            <h1>Напитки</h1>
+        </header>
+        <div th:switch="${drinks}">
+            <h2 th:case="null">menu is empty</h2>
+            <div th:case="*">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Название</th>
+                            <th>Объем(мл.)</th>
+                            <th>Цена</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr th:each="drink : ${drinks}">
+                            <td th:text="${drink.name}"></td>
+                            <td th:text="${drink.bottleVolume}"></td>
+                            <td th:text="${drink.cost}"></td>
+                            <div sec:authorize="hasRole('ADMIN')">
+                                <td>
+                                    <a th:href="@{/drinks/update/{id}(id=${drink.id})}">Изменить</a>
+                                </td>
+                                <td>
+                                    <a th:href="@{/drinks/delete/{id}(id=${drink.id})}">Удалить</a>
+                                </td>
+                            </div>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
+            <br>
+            <div class="back">
+                <input type="button" value="Вернуться"
+                onclick="window.location.href='/'">
+                <br>
+                <div sec:authorize="hasRole('ADMIN')">
+                    <form th:action="@{/drinks/new}">
+                        <input type="submit" value="Добавить"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

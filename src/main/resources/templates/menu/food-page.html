@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8">
+        <title>Food</title>
+     <link rel="stylesheet" href="css/food.css">
+    </head>
+    <body>
+        <header>
+            <h1>Наша Еда</h1>
+        </header>
+
+        <div th:switch="${food}">
+            <h2 th:case="null">food menu is empty</h2>
+            <div th:case="*">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Название</th>
+                            <th>Вес(гр.)</th>
+                            <th>Цена</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr th:each="fd : ${food}">
+                            <td th:text="${fd.name}"></td>
+                            <td th:text="${fd.weight}"></td>
+                            <td th:text="${fd.cost}"></td>
+                            <div sec:authorize="hasRole('ADMIN')">
+                                <td>
+                                    <a th:href="@{/food/update/{id}(id=${fd.id})}">изменить</a>
+                                </td>
+                                <td>
+                                    <a th:href="@{/food/delete/{id}(id=${fd.id})}">удалить</a>
+                                </td>
+                            </div>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
+            <br>
+            <div class="back">
+                <input type="button" value="Вернуться"
+                       onclick="window.location.href='/'">
+                <br>
+                <div sec:authorize="hasRole('ADMIN')">
+                    <form th:action="@{/food/new}">
+                        <input type="submit" value="Добавить">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

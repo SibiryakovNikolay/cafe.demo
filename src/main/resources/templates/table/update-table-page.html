@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Update table</title>
+    <link rel="stylesheet" href="/css/update-table.css">
+</head>
+<header>
+    <h1>Подтверждение брони</h1>
+</header>
+<body>
+<form th:action="@{/update}" th:object="${table}" th:method="POST">
+    <label for="id">ID</label>
+    <input readonly type="number" th:field="*{id}" id="id" placeholder="ID">
+    <br/>
+    <label for="Name">Имя</label>
+    <input type="text" th:field="*{name}" id="name" placeholder="имя"/>
+    <br/>
+    <label for="dateReserve">Дата</label>
+    <input type="date" th:field="*{dateReserve}" id="dateReserve"/>
+    <br/>
+    <label for="timeReserve">Время</label>
+    <input type="time" th:field="*{timeReserve}" id="timeReserve"/>
+    <br/>
+    <label for="phone">Номер</label>
+    <input type="text" th:field="*{phoneNumber}" id="phone" placeholder="номер"/>
+    <br/>
+    <!--    <label for="confirm">confirm</label>-->
+    <!--    <input type="text" th:field="*{confirm}" id="confirm" placeholder="confirm"/>-->
+
+    <div>
+        <select th:field="*{confirm}">
+            <option value="не подтверждено" label="не подтверждено"></option>
+            <option value="подтверждено" label="подтверждено"></option>
+        </select>
+    </div>
+    <input type="submit" value="Обновить">
+    <br>
+    <input type="button" value="Назад"
+           onclick="window.location.href='/reserved'"/>
+    <input type="button" value="Вернуться"
+           onclick="window.location.href='/'">
+</form>
+</body>
+</html>

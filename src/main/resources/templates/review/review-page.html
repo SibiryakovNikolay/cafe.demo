@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml"
+      xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Reviews</title>
+    <link rel="stylesheet" href="css/review.css">
+</head>
+<body>
+<header>
+
+</header>
+<div class="formInput">
+    <form th:action="@{/reviews}" th:object="${formReview}" th:method="post">
+        <label for="name">Имя</label>
+        <input type="text" th:field="*{nameGuest}" id="name" placeholder="name"/>
+        <div class="error" th:if="${#fields.hasErrors('nameGuest')}" th:errors="*{nameGuest}">Error</div>
+        <br>
+        <label for="review">Отзыв</label>
+        <textarea class="reviewForm" type="text" th:field="*{review}" id="review"/>
+        <div class="error" th:if="${#fields.hasErrors('review')}" th:errors="*{review}">Error</div>
+        <br>
+        <div>
+            оценка 1 <input type="radio" th:field="*{grade}" th:value="1"/>
+            2 <input type="radio" th:field="*{grade}" th:value="2"/>
+            3 <input type="radio" th:field="*{grade}" th:value="3"/>
+            4 <input type="radio" th:field="*{grade}" th:value="4"/>
+            5 <input type="radio" th:field="*{grade}" th:value="5"/>
+        </div>
+        <input type="submit" value="Добавить"/>
+        <input type="reset" value="Очистить"/>
+        <input type="button" value="Вернуться"
+               onclick="window.location.href='/'"/>
+    </form>
+</div>
+<hr>
+<div th:each="review : ${reviews}">
+    Имя: <span th:text="${review.nameGuest}"></span>
+    <br>
+    оценка <span th:text="${review.grade}"></span>
+    <p th:text="${review.review}"></p>
+    <div sec:authorize="hasRole('ADMIN')">
+        <form th:action="@{/reviews/delete/{id}(id=${review.id})}">
+            <input type="submit" value="Удалить"/>
+        </form>
+    </div>
+    <hr>
+</div>
+</body>
+</html>

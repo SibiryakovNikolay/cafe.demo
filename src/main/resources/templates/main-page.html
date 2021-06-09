@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Cafe</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+<div class="wrap">
+<header>
+    <h1>Добро пожаловать в Уютное Кафе</h1>
+</header>
+
+<br>
+<div class="content">
+    <h2>Информация для посетителей</h2>
+    <div class="content_text">
+    <p><b>Товарищи! консультация с широким активом позволяет выполнять важные задания по разработке систем массового
+        участия. Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу
+        (специалистов) участие в формировании новых предложений.
+        Таким образом реализация намеченных плановых заданий позволяет оценить значение новых предложений. Товарищи!
+        сложившаяся структура организации представляет собой интересный эксперимент проверки направлений прогрессивного
+        развития.</b></p>
+    </div>
+
+</div>
+<aside>
+<h3>Главное меню</h3>
+    <ul>
+    <li><a href="/table">Заказать столик</a></li>
+    <br>
+        <li> <a href="/reviews">отзывы</a></li>
+        <br>
+        <span>Меню</span>
+        <br>
+        <br>
+        <li> <a href="/drinks">Наши напитки</a></li>
+        <br>
+        <li> <a href="/food">Наша еда</a></li>
+    </ul>
+    <br>
+    <br>
+    <div class="auth">
+    <form th:action="@{/auth/login}" method="post">
+        <input type="submit" value="Авторизация модератора"/>
+    </form>
+    <form th:action="@{/auth/logout}" method="post">
+        <input type="submit" value="Выход"/>
+    </form>
+    </div>
+</aside>
+<br>
+<br>
+</div>
+<footer>
+    <h4>Наши контакты:</h4>
+    <div class="contact">
+        <p>Адрес: город Бирибиджан,
+            улица Ленина дом 1</p>
+        <p>Телефон +7(999)888-77-66</p>
+    </div>
+</footer>
+</div>
+
+</body>
+</html>

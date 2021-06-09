@@ -1,0 +1,33 @@
+header {
+    font-family: Segoe print;
+    font-size: 25px;
+    color: #9292b4;
+    margin: 10px 100px 10px 100px;
+}
+
+body {
+    background-image: url("images/drink2.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+
+}
+
+table {
+    margin: 1px 100px 30px 100px;
+    font-family: Sans-serif;
+    font-size: 20px;
+    color: #2a2a6a;
+    font-size: 25px;
+    width: 30%;
+}
+
+thead {
+    text-align: left;
+    font-size: 30px
+}
+
+.back {
+    margin: 1px 100px 30px 100px;
+}
