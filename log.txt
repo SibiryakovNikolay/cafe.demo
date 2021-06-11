@@ -1,0 +1,190 @@
+2021-06-11 20:04:04.848  INFO 10144 --- [main] p.restoran2.demo.restoran.Application    : Starting Application using Java 11.0.11 on WIN-PNFQSO3JBBD with PID 10144 (C:\Users\Robocop\IdeaProjects\demo.restoran\target\classes started by Robocop in C:\Users\Robocop\IdeaProjects\demo.restoran)
+2021-06-11 20:04:04.851  INFO 10144 --- [main] p.restoran2.demo.restoran.Application    : No active profile set, falling back to default profiles: default
+2021-06-11 20:04:05.103  WARN 10144 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-11 20:04:05.357  INFO 10144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-11 20:04:05.412  INFO 10144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 4 JPA repository interfaces.
+2021-06-11 20:04:05.850  INFO 10144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-11 20:04:05.856  INFO 10144 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-11 20:04:05.857  INFO 10144 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-11 20:04:05.923  INFO 10144 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-11 20:04:05.923  INFO 10144 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1030 ms
+2021-06-11 20:04:06.010  INFO 10144 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-11 20:04:06.073  INFO 10144 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-11 20:04:06.101  INFO 10144 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-11 20:04:06.127  INFO 10144 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-11 20:04:06.189  INFO 10144 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-11 20:04:06.254  INFO 10144 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-11 20:04:06.612  INFO 10144 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-11 20:04:06.618  INFO 10144 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-11 20:04:06.658  WARN 10144 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-11 20:04:07.311  INFO 10144 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5e3d84a, org.springframework.security.web.context.SecurityContextPersistenceFilter@39403943, org.springframework.security.web.header.HeaderWriterFilter@45635ae1, org.springframework.security.web.authentication.logout.LogoutFilter@3cc817bd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@79349b61, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@49338f3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@54d46c8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2728add3, org.springframework.security.web.session.SessionManagementFilter@4aea57dc, org.springframework.security.web.access.ExceptionTranslationFilter@5eba9e41, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@366bf608]
+2021-06-11 20:04:07.655  INFO 10144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-11 20:04:07.663  INFO 10144 --- [main] p.restoran2.demo.restoran.Application    : Started Application in 3.114 seconds (JVM running for 3.627)
+2021-06-11 20:04:07.664  INFO 10144 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-11 20:04:07.666  INFO 10144 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-11 20:04:52.357  INFO 10144 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-11 20:04:52.357  INFO 10144 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-11 20:04:52.358  INFO 10144 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-11 20:04:52.419  INFO 10144 --- [http-nio-8080-exec-1] p.r.demo.restoran.aspect.LoggingAspect   : start createReview
+2021-06-11 20:04:52.422  INFO 10144 --- [http-nio-8080-exec-1] p.r.demo.restoran.aspect.LoggingAspect   : end createReview
+2021-06-11 20:04:54.224  INFO 10144 --- [http-nio-8080-exec-4] p.r.demo.restoran.aspect.LoggingAspect   : start createReview
+2021-06-11 20:04:54.224  INFO 10144 --- [http-nio-8080-exec-4] p.r.demo.restoran.aspect.LoggingAspect   : end createReview
+2021-06-11 20:04:55.345  INFO 10144 --- [http-nio-8080-exec-7] p.r.demo.restoran.aspect.LoggingAspect   : start showMainMenu
+2021-06-11 20:04:55.348  INFO 10144 --- [http-nio-8080-exec-7] p.r.demo.restoran.aspect.LoggingAspect   : end showMainMenu
+2021-06-11 20:04:56.239  INFO 10144 --- [http-nio-8080-exec-10] p.r.demo.restoran.aspect.LoggingAspect   : start tableReserving
+2021-06-11 20:04:56.242  INFO 10144 --- [http-nio-8080-exec-10] p.r.demo.restoran.aspect.LoggingAspect   : end tableReserving
+2021-06-11 20:05:03.773  INFO 10144 --- [http-nio-8080-exec-2] p.r.demo.restoran.aspect.LoggingAspect   : start newReserve
+2021-06-11 20:05:03.813  INFO 10144 --- [http-nio-8080-exec-2] p.r.demo.restoran.aspect.LoggingAspect   : end newReserve
+2021-06-11 20:05:03.821  INFO 10144 --- [http-nio-8080-exec-4] p.r.demo.restoran.aspect.LoggingAspect   : start successReserved
+2021-06-11 20:05:03.821  INFO 10144 --- [http-nio-8080-exec-4] p.r.demo.restoran.aspect.LoggingAspect   : end successReserved
+2021-06-11 20:11:32.583  INFO 10144 --- [http-nio-8080-exec-7] p.r.demo.restoran.aspect.LoggingAspect   : start showMainMenu
+2021-06-11 20:11:32.584  INFO 10144 --- [http-nio-8080-exec-7] p.r.demo.restoran.aspect.LoggingAspect   : end showMainMenu
+2021-06-11 20:11:34.538  INFO 10144 --- [http-nio-8080-exec-10] p.r.demo.restoran.aspect.LoggingAspect   : start showMenuDrinks
+2021-06-11 20:11:34.609  INFO 10144 --- [http-nio-8080-exec-10] p.r.demo.restoran.aspect.LoggingAspect   : end showMenuDrinks
+2021-06-11 20:17:14,730 main INFO Starting Application using Java 11.0.11 on WIN-PNFQSO3JBBD with PID 8736 (C:\Users\Robocop\IdeaProjects\demo.restoran\target\classes started by Robocop in C:\Users\Robocop\IdeaProjects\demo.restoran) 
+2021-06-11 20:17:14,732 main INFO No active profile set, falling back to default profiles: default 
+2021-06-11 20:17:14,975 background-preinit WARN For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath 
+2021-06-11 20:17:15,243 main INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-06-11 20:17:15,287 main INFO Finished Spring Data repository scanning in 38 ms. Found 4 JPA repository interfaces. 
+2021-06-11 20:17:15,735 main INFO Tomcat initialized with port(s): 8080 (http) 
+2021-06-11 20:17:15,742 main INFO Starting service [Tomcat] 
+2021-06-11 20:17:15,742 main INFO Starting Servlet engine: [Apache Tomcat/9.0.46] 
+2021-06-11 20:17:15,819 main INFO Initializing Spring embedded WebApplicationContext 
+2021-06-11 20:17:15,819 main INFO Root WebApplicationContext: initialization completed in 1042 ms 
+2021-06-11 20:17:15,903 main INFO HikariPool-1 - Starting... 
+2021-06-11 20:17:15,965 main INFO HikariPool-1 - Start completed. 
+2021-06-11 20:17:15,994 main INFO HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-06-11 20:17:16,019 main INFO HHH000412: Hibernate ORM core version 5.4.31.Final 
+2021-06-11 20:17:16,080 main INFO HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-06-11 20:17:16,147 main INFO HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect 
+2021-06-11 20:17:16,513 main INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-06-11 20:17:16,519 main INFO Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-06-11 20:17:16,559 main WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-06-11 20:17:17,214 main INFO Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2728add3, org.springframework.security.web.context.SecurityContextPersistenceFilter@1c5fd813, org.springframework.security.web.header.HeaderWriterFilter@7adbec34, org.springframework.security.web.authentication.logout.LogoutFilter@64b8eb96, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@62581ef6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3c9971af, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ddba7a0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4fce3ed7, org.springframework.security.web.session.SessionManagementFilter@66abc325, org.springframework.security.web.access.ExceptionTranslationFilter@13809363, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b5cdd07] 
+2021-06-11 20:17:17,556 main INFO Tomcat started on port(s): 8080 (http) with context path '' 
+2021-06-11 20:17:17,565 main INFO Started Application in 3.121 seconds (JVM running for 3.648) 
+2021-06-11 20:17:17,566 main INFO Application availability state LivenessState changed to CORRECT 
+2021-06-11 20:17:17,567 main INFO Application availability state ReadinessState changed to ACCEPTING_TRAFFIC 
+2021-06-11 20:17:32,108 http-nio-8080-exec-2 INFO Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-06-11 20:17:32,108 http-nio-8080-exec-2 INFO Initializing Servlet 'dispatcherServlet' 
+2021-06-11 20:17:32,109 http-nio-8080-exec-2 INFO Completed initialization in 1 ms 
+2021-06-11 20:17:32,139 http-nio-8080-exec-2 INFO start showMainMenu 
+2021-06-11 20:17:32,142 http-nio-8080-exec-2 INFO end showMainMenu 
+2021-06-11 20:17:32,769 http-nio-8080-exec-3 INFO start showMainMenu 
+2021-06-11 20:17:32,770 http-nio-8080-exec-3 INFO end showMainMenu 
+2021-06-11 20:17:34,595 http-nio-8080-exec-6 INFO start showReviews 
+2021-06-11 20:17:34,682 http-nio-8080-exec-6 INFO end showReviews 
+2021-06-11 20:17:38,324 http-nio-8080-exec-9 INFO start createReview 
+2021-06-11 20:17:38,347 http-nio-8080-exec-9 INFO end createReview 
+2021-06-11 20:17:38,355 http-nio-8080-exec-10 INFO start showReviews 
+2021-06-11 20:17:38,356 http-nio-8080-exec-10 INFO end showReviews 
+2021-06-11 20:18:18,079 http-nio-8080-exec-3 INFO start showMenuDrinks 
+2021-06-11 20:18:18,087 http-nio-8080-exec-3 INFO end showMenuDrinks 
+2021-06-11 20:18:21,343 http-nio-8080-exec-6 INFO start showMainMenu 
+2021-06-11 20:18:21,343 http-nio-8080-exec-6 INFO end showMainMenu 
+2021-06-11 20:18:24,221 http-nio-8080-exec-9 INFO start showReviews 
+2021-06-11 20:18:24,223 http-nio-8080-exec-9 INFO end showReviews 
+2021-06-11 20:18:37,150 http-nio-8080-exec-3 INFO start showMainMenu 
+2021-06-11 20:18:37,150 http-nio-8080-exec-3 INFO end showMainMenu 
+2021-06-11 20:18:39,749 http-nio-8080-exec-7 INFO start tableReserving 
+2021-06-11 20:18:39,753 http-nio-8080-exec-7 INFO end tableReserving 
+2021-06-11 20:18:45,688 http-nio-8080-exec-10 INFO start newReserve 
+2021-06-11 20:18:45,688 http-nio-8080-exec-10 INFO end newReserve 
+2021-06-11 20:19:23,349 http-nio-8080-exec-4 INFO start showMainMenu 
+2021-06-11 20:19:23,349 http-nio-8080-exec-4 INFO end showMainMenu 
+2021-06-11 20:20:53,719 main INFO  Starting Application using Java 11.0.11 on WIN-PNFQSO3JBBD with PID 13688 (C:\Users\Robocop\IdeaProjects\demo.restoran\target\classes started by Robocop in C:\Users\Robocop\IdeaProjects\demo.restoran) 
+2021-06-11 20:20:53,722 main INFO  No active profile set, falling back to default profiles: default 
+2021-06-11 20:20:53,987 background-preinit WARN  For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath 
+2021-06-11 20:20:54,256 main INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-06-11 20:20:54,302 main INFO  Finished Spring Data repository scanning in 40 ms. Found 4 JPA repository interfaces. 
+2021-06-11 20:20:54,753 main INFO  Tomcat initialized with port(s): 8080 (http) 
+2021-06-11 20:20:54,760 main INFO  Starting service [Tomcat] 
+2021-06-11 20:20:54,760 main INFO  Starting Servlet engine: [Apache Tomcat/9.0.46] 
+2021-06-11 20:20:54,822 main INFO  Initializing Spring embedded WebApplicationContext 
+2021-06-11 20:20:54,822 main INFO  Root WebApplicationContext: initialization completed in 1054 ms 
+2021-06-11 20:20:54,909 main INFO  HikariPool-1 - Starting... 
+2021-06-11 20:20:55,082 main INFO  HikariPool-1 - Start completed. 
+2021-06-11 20:20:55,111 main INFO  HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-06-11 20:20:55,137 main INFO  HHH000412: Hibernate ORM core version 5.4.31.Final 
+2021-06-11 20:20:55,200 main INFO  HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-06-11 20:20:55,264 main INFO  HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect 
+2021-06-11 20:20:55,643 main INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-06-11 20:20:55,649 main INFO  Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-06-11 20:20:55,692 main WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-06-11 20:20:56,378 main INFO  Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47374fa5, org.springframework.security.web.context.SecurityContextPersistenceFilter@5cf80dfb, org.springframework.security.web.header.HeaderWriterFilter@3d3a28b5, org.springframework.security.web.authentication.logout.LogoutFilter@6fe9c048, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@31859960, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4219a4cc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@526fc044, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@289da1bc, org.springframework.security.web.session.SessionManagementFilter@38a52072, org.springframework.security.web.access.ExceptionTranslationFilter@8c3b634, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44a485bc] 
+2021-06-11 20:20:56,735 main INFO  Tomcat started on port(s): 8080 (http) with context path '' 
+2021-06-11 20:20:56,744 main INFO  Started Application in 3.331 seconds (JVM running for 3.946) 
+2021-06-11 20:20:56,745 main INFO  Application availability state LivenessState changed to CORRECT 
+2021-06-11 20:20:56,746 main INFO  Application availability state ReadinessState changed to ACCEPTING_TRAFFIC 
+2021-06-11 20:21:12,363 http-nio-8080-exec-1 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-06-11 20:21:12,363 http-nio-8080-exec-1 INFO  Initializing Servlet 'dispatcherServlet' 
+2021-06-11 20:21:12,364 http-nio-8080-exec-1 INFO  Completed initialization in 1 ms 
+2021-06-11 20:21:12,393 http-nio-8080-exec-1 INFO  start tableReserving 
+2021-06-11 20:21:12,396 http-nio-8080-exec-1 INFO  end tableReserving 
+2021-06-11 20:21:13,759 http-nio-8080-exec-9 INFO  start newReserve 
+2021-06-11 20:21:13,759 http-nio-8080-exec-9 INFO  end newReserve 
+2021-06-11 20:21:15,267 http-nio-8080-exec-7 INFO  start showMainMenu 
+2021-06-11 20:21:15,269 http-nio-8080-exec-7 INFO  end showMainMenu 
+2021-06-11 20:25:01,278 main INFO  Starting Application using Java 11.0.11 on WIN-PNFQSO3JBBD with PID 10876 (C:\Users\Robocop\IdeaProjects\demo.restoran\target\classes started by Robocop in C:\Users\Robocop\IdeaProjects\demo.restoran) 
+2021-06-11 20:25:01,280 main INFO  No active profile set, falling back to default profiles: default 
+2021-06-11 20:25:01,531 background-preinit WARN  For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath 
+2021-06-11 20:25:01,779 main INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-06-11 20:25:01,823 main INFO  Finished Spring Data repository scanning in 38 ms. Found 4 JPA repository interfaces. 
+2021-06-11 20:25:02,261 main INFO  Tomcat initialized with port(s): 8080 (http) 
+2021-06-11 20:25:02,267 main INFO  Starting service [Tomcat] 
+2021-06-11 20:25:02,268 main INFO  Starting Servlet engine: [Apache Tomcat/9.0.46] 
+2021-06-11 20:25:02,333 main INFO  Initializing Spring embedded WebApplicationContext 
+2021-06-11 20:25:02,333 main INFO  Root WebApplicationContext: initialization completed in 1011 ms 
+2021-06-11 20:25:02,417 main INFO  HikariPool-1 - Starting... 
+2021-06-11 20:25:02,479 main INFO  HikariPool-1 - Start completed. 
+2021-06-11 20:25:02,510 main INFO  HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-06-11 20:25:02,535 main INFO  HHH000412: Hibernate ORM core version 5.4.31.Final 
+2021-06-11 20:25:02,600 main INFO  HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-06-11 20:25:02,666 main INFO  HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect 
+2021-06-11 20:25:03,029 main INFO  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-06-11 20:25:03,035 main INFO  Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-06-11 20:25:03,074 main WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-06-11 20:25:03,724 main INFO  Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c8dea0b, org.springframework.security.web.context.SecurityContextPersistenceFilter@6fe9c048, org.springframework.security.web.header.HeaderWriterFilter@c7cf8c4, org.springframework.security.web.authentication.logout.LogoutFilter@3ae87e38, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4fb99927, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ddba7a0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5f32ab17, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b9beefe, org.springframework.security.web.session.SessionManagementFilter@731fae, org.springframework.security.web.access.ExceptionTranslationFilter@49338f3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@60484429] 
+2021-06-11 20:25:04,065 main INFO  Tomcat started on port(s): 8080 (http) with context path '' 
+2021-06-11 20:25:04,073 main INFO  Started Application in 3.093 seconds (JVM running for 3.612) 
+2021-06-11 20:25:04,074 main INFO  Application availability state LivenessState changed to CORRECT 
+2021-06-11 20:25:04,076 main INFO  Application availability state ReadinessState changed to ACCEPTING_TRAFFIC 
+2021-06-11 20:25:09,811 http-nio-8080-exec-1 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-06-11 20:25:09,812 http-nio-8080-exec-1 INFO  Initializing Servlet 'dispatcherServlet' 
+2021-06-11 20:25:09,812 http-nio-8080-exec-1 INFO  Completed initialization in 0 ms 
+2021-06-11 20:25:09,841 http-nio-8080-exec-1 INFO  start getAllList 
+2021-06-11 20:25:09,926 http-nio-8080-exec-1 INFO  end getAllList 
+2021-06-11 20:25:15,421 http-nio-8080-exec-10 INFO  start getAllList 
+2021-06-11 20:25:15,428 http-nio-8080-exec-10 INFO  end getAllList 
+2021-06-11 20:26:08,699 http-nio-8080-exec-5 INFO  start getAllList 
+2021-06-11 20:26:08,701 http-nio-8080-exec-5 INFO  end getAllList 
+2021-06-11 21:17:00,199 [background-preinit] [34m-5level[0;39m org.hibernate.validator.internal.util.Version : HV000001: Hibernate Validator 6.1.0.Final
+2021-06-11 21:17:00,205 [main] [34m-5level[0;39m project.restoran2.demo.restoran.Application : Starting Application using Java 11.0.11 on WIN-PNFQSO3JBBD with PID 7068 (C:\Users\Robocop\IdeaProjects\demo.restoran\target\classes started by Robocop in C:\Users\Robocop\IdeaProjects\demo.restoran)
+2021-06-11 21:17:00,206 [main] [34m-5level[0;39m project.restoran2.demo.restoran.Application : No active profile set, falling back to default profiles: default
+2021-06-11 21:17:00,447 [background-preinit] [31m-5level[0;39m org.springframework.http.converter.json.Jackson2ObjectMapperBuilder : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-11 21:17:00,718 [main] [34m-5level[0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-11 21:17:00,761 [main] [34m-5level[0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 4 JPA repository interfaces.
+2021-06-11 21:17:01,196 [main] [34m-5level[0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2021-06-11 21:17:01,203 [main] [34m-5level[0;39m org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-11 21:17:01,203 [main] [34m-5level[0;39m org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2021-06-11 21:17:01,203 [main] [34m-5level[0;39m org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-11 21:17:01,267 [main] [34m-5level[0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2021-06-11 21:17:01,267 [main] [34m-5level[0;39m org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1023 ms
+2021-06-11 21:17:01,354 [main] [34m-5level[0;39m com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2021-06-11 21:17:01,415 [main] [34m-5level[0;39m com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2021-06-11 21:17:01,443 [main] [34m-5level[0;39m org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-11 21:17:01,468 [main] [34m-5level[0;39m org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-11 21:17:01,534 [main] [34m-5level[0;39m org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-11 21:17:01,600 [main] [34m-5level[0;39m org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-11 21:17:01,961 [main] [34m-5level[0;39m org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-11 21:17:01,967 [main] [34m-5level[0;39m org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-11 21:17:02,014 [main] [31m-5level[0;39m org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-11 21:17:02,673 [main] [34m-5level[0;39m org.springframework.security.web.DefaultSecurityFilterChain : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2c1a95a2, org.springframework.security.web.context.SecurityContextPersistenceFilter@5516ee5, org.springframework.security.web.header.HeaderWriterFilter@3361d286, org.springframework.security.web.authentication.logout.LogoutFilter@51566ce0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@161c9468, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@75c589f2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@363ba634, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1adf387e, org.springframework.security.web.session.SessionManagementFilter@49fb693d, org.springframework.security.web.access.ExceptionTranslationFilter@240291d9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2ffcdc9b]
+2021-06-11 21:17:02,998 [main] [34m-5level[0;39m org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2021-06-11 21:17:03,011 [main] [34m-5level[0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-11 21:17:03,020 [main] [34m-5level[0;39m project.restoran2.demo.restoran.Application : Started Application in 3.085 seconds (JVM running for 3.692)
+2021-06-11 21:17:03,020 [main] [34m-5level[0;39m org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-06-11 21:17:03,022 [main] [34m-5level[0;39m org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-11 21:17:25,414 [http-nio-8080-exec-1] [34m-5level[0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-11 21:17:25,414 [http-nio-8080-exec-1] [34m-5level[0;39m org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2021-06-11 21:17:25,415 [http-nio-8080-exec-1] [34m-5level[0;39m org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
