@@ -1,0 +1,33 @@
+2021-06-12 20:52:26,245 [main] [34m-5level[0;39m project.demo.restoran.Application : Starting Application using Java 11.0.11 on WIN-PNFQSO3JBBD with PID 14924 (C:\Users\Robocop\IdeaProjects\demo.restoran\target\classes started by Robocop in C:\Users\Robocop\IdeaProjects\demo.restoran)
+2021-06-12 20:52:26,246 [main] [34m-5level[0;39m project.demo.restoran.Application : No active profile set, falling back to default profiles: default
+2021-06-12 20:52:29,101 [main] [34m-5level[0;39m project.demo.restoran.Application : Started Application in 3.156 seconds (JVM running for 3.824)
+2021-06-12 20:52:38,189 [http-nio-8080-exec-2] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showReviews
+2021-06-12 20:52:38,277 [http-nio-8080-exec-2] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showReviews
+2021-06-12 20:52:41,022 [http-nio-8080-exec-5] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-12 20:52:41,025 [http-nio-8080-exec-5] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-12 20:52:41,852 [http-nio-8080-exec-7] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start tableReserving
+2021-06-12 20:52:41,855 [http-nio-8080-exec-7] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end tableReserving
+2021-06-12 20:52:49,700 [http-nio-8080-exec-10] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start newReserve
+2021-06-12 20:52:49,715 [http-nio-8080-exec-10] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : arg name Роман arg number 964-858-22-11
+2021-06-12 20:52:49,715 [http-nio-8080-exec-10] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end newReserve
+2021-06-12 20:52:49,732 [http-nio-8080-exec-2] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start successReserved
+2021-06-12 20:52:49,733 [http-nio-8080-exec-2] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end successReserved
+2021-06-12 20:52:50,837 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-12 20:52:50,838 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-12 21:02:02,339 [main] [34m-5level[0;39m project.demo.restoran.Application : Starting Application using Java 11.0.11 on WIN-PNFQSO3JBBD with PID 11940 (C:\Users\Robocop\IdeaProjects\demo.restoran\target\classes started by Robocop in C:\Users\Robocop\IdeaProjects\demo.restoran)
+2021-06-12 21:02:02,339 [main] [34m-5level[0;39m project.demo.restoran.Application : No active profile set, falling back to default profiles: default
+2021-06-12 21:02:05,348 [main] [34m-5level[0;39m project.demo.restoran.Application : Started Application in 3.283 seconds (JVM running for 3.921)
+2021-06-12 21:03:34,020 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start tableReserving
+2021-06-12 21:03:34,024 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end tableReserving
+2021-06-12 21:03:35,354 [http-nio-8080-exec-3] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-12 21:03:35,354 [http-nio-8080-exec-3] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-12 21:03:36,502 [http-nio-8080-exec-7] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMenuDrinks
+2021-06-12 21:03:36,609 [http-nio-8080-exec-7] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMenuDrinks
+2021-06-12 21:03:37,837 [http-nio-8080-exec-9] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-12 21:03:37,837 [http-nio-8080-exec-9] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-12 21:03:39,116 [http-nio-8080-exec-5] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMenuFood
+2021-06-12 21:03:39,122 [http-nio-8080-exec-5] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMenuFood
+2021-06-12 21:03:40,213 [http-nio-8080-exec-6] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-12 21:03:40,213 [http-nio-8080-exec-6] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-12 21:03:41,307 [http-nio-8080-exec-9] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start authorization
+2021-06-12 21:03:41,307 [http-nio-8080-exec-9] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end authorization
