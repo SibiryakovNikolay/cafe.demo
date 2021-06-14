@@ -18,8 +18,8 @@ public class User {
     @Column(name = "username")
     private String username;
 
-    @NotBlank(message = "поле не должно быть пустым")
-    @Size(min = 2, max = 20, message = "пароль должно содержать от 2х до 20 символов")
+
+    @Size(min = 2, max = 100, message = "пароль должно содержать от 2х до 100 символов")
     @Column(name = "password")
     private String password;
 

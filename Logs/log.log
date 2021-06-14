@@ -508,3 +508,168 @@
 2021-06-14 21:06:32,789 [http-nio-8080-exec-3] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMenuDrinks
 2021-06-14 21:06:36,429 [http-nio-8080-exec-5] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
 2021-06-14 21:06:36,429 [http-nio-8080-exec-5] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-14 21:14:23,469 [main] [34m-5level[0;39m project.demo.restoran.Application : Starting Application using Java 11.0.11 on WIN-PNFQSO3JBBD with PID 11140 (C:\Users\Robocop\IdeaProjects\demo.restoran\target\classes started by Robocop in C:\Users\Robocop\IdeaProjects\demo.restoran)
+2021-06-14 21:14:23,471 [main] [34m-5level[0;39m project.demo.restoran.Application : No active profile set, falling back to default profiles: default
+2021-06-14 21:14:26,528 [main] [34m-5level[0;39m project.demo.restoran.Application : Started Application in 3.387 seconds (JVM running for 4.068)
+2021-06-14 21:14:29,967 [http-nio-8080-exec-2] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-14 21:14:29,969 [http-nio-8080-exec-2] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-14 21:14:36,372 [http-nio-8080-exec-6] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-14 21:14:36,372 [http-nio-8080-exec-6] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-14 21:14:39,008 [http-nio-8080-exec-8] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showReviews
+2021-06-14 21:14:39,020 [http-nio-8080-exec-8] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showReviews
+2021-06-14 21:14:40,388 [http-nio-8080-exec-2] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-14 21:14:40,388 [http-nio-8080-exec-2] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-14 21:14:41,616 [http-nio-8080-exec-4] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-14 21:14:41,616 [http-nio-8080-exec-4] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-14 21:14:42,789 [http-nio-8080-exec-8] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start authorization
+2021-06-14 21:14:42,789 [http-nio-8080-exec-8] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end authorization
+2021-06-14 21:14:45,724 [http-nio-8080-exec-9] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-14 21:14:45,724 [http-nio-8080-exec-9] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-14 21:14:47,180 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start registrationForm
+2021-06-14 21:14:47,184 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end registrationForm
+2021-06-14 21:15:06,706 [http-nio-8080-exec-6] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:15:58,221 [http-nio-8080-exec-7] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start registrationForm
+2021-06-14 21:15:58,222 [http-nio-8080-exec-7] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end registrationForm
+2021-06-14 21:16:19,096 [http-nio-8080-exec-10] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:18:21,401 [main] [34m-5level[0;39m project.demo.restoran.Application : Starting Application using Java 11.0.11 on WIN-PNFQSO3JBBD with PID 11624 (C:\Users\Robocop\IdeaProjects\demo.restoran\target\classes started by Robocop in C:\Users\Robocop\IdeaProjects\demo.restoran)
+2021-06-14 21:18:21,402 [main] [34m-5level[0;39m project.demo.restoran.Application : No active profile set, falling back to default profiles: default
+2021-06-14 21:18:24,133 [main] [34m-5level[0;39m project.demo.restoran.Application : Started Application in 3.013 seconds (JVM running for 3.648)
+2021-06-14 21:18:25,275 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-14 21:18:25,278 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-14 21:18:25,494 [http-nio-8080-exec-2] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-14 21:18:25,494 [http-nio-8080-exec-2] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-14 21:18:27,248 [http-nio-8080-exec-3] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start registrationForm
+2021-06-14 21:18:27,251 [http-nio-8080-exec-3] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end registrationForm
+2021-06-14 21:18:36,402 [http-nio-8080-exec-8] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:20:25,369 [main] [34m-5level[0;39m project.demo.restoran.Application : Starting Application using Java 11.0.11 on WIN-PNFQSO3JBBD with PID 14608 (C:\Users\Robocop\IdeaProjects\demo.restoran\target\classes started by Robocop in C:\Users\Robocop\IdeaProjects\demo.restoran)
+2021-06-14 21:20:25,370 [main] [34m-5level[0;39m project.demo.restoran.Application : No active profile set, falling back to default profiles: default
+2021-06-14 21:20:28,069 [main] [34m-5level[0;39m project.demo.restoran.Application : Started Application in 3.002 seconds (JVM running for 3.611)
+2021-06-14 21:20:29,862 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-14 21:20:29,865 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-14 21:20:32,272 [http-nio-8080-exec-9] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start registrationForm
+2021-06-14 21:20:32,274 [http-nio-8080-exec-9] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end registrationForm
+2021-06-14 21:20:35,208 [http-nio-8080-exec-2] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:20:35,208 [http-nio-8080-exec-2] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end createUser
+2021-06-14 21:20:47,813 [http-nio-8080-exec-5] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:20:47,813 [http-nio-8080-exec-5] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end createUser
+2021-06-14 21:20:49,143 [http-nio-8080-exec-10] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:20:49,143 [http-nio-8080-exec-10] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end createUser
+2021-06-14 21:20:52,344 [http-nio-8080-exec-6] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:20:52,422 [http-nio-8080-exec-6] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end createUser
+2021-06-14 21:20:56,165 [http-nio-8080-exec-9] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:20:56,165 [http-nio-8080-exec-9] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end createUser
+2021-06-14 21:20:57,175 [http-nio-8080-exec-2] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:20:57,175 [http-nio-8080-exec-2] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end createUser
+2021-06-14 21:20:59,582 [http-nio-8080-exec-5] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:21:23,461 [main] [34m-5level[0;39m project.demo.restoran.Application : Starting Application using Java 11.0.11 on WIN-PNFQSO3JBBD with PID 12244 (C:\Users\Robocop\IdeaProjects\demo.restoran\target\classes started by Robocop in C:\Users\Robocop\IdeaProjects\demo.restoran)
+2021-06-14 21:21:23,462 [main] [34m-5level[0;39m project.demo.restoran.Application : No active profile set, falling back to default profiles: default
+2021-06-14 21:21:26,283 [main] [34m-5level[0;39m project.demo.restoran.Application : Started Application in 3.083 seconds (JVM running for 3.703)
+2021-06-14 21:21:33,701 [http-nio-8080-exec-2] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-14 21:21:33,704 [http-nio-8080-exec-2] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-14 21:21:37,656 [http-nio-8080-exec-4] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start registrationForm
+2021-06-14 21:21:37,659 [http-nio-8080-exec-4] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end registrationForm
+2021-06-14 21:21:54,762 [http-nio-8080-exec-6] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:21:54,943 [http-nio-8080-exec-6] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end createUser
+2021-06-14 21:21:54,951 [http-nio-8080-exec-7] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start successRegistration
+2021-06-14 21:21:54,951 [http-nio-8080-exec-7] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end successRegistration
+2021-06-14 21:21:56,708 [http-nio-8080-exec-8] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-14 21:21:56,709 [http-nio-8080-exec-8] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-14 21:23:07,232 [main] [34m-5level[0;39m project.demo.restoran.Application : Starting Application using Java 11.0.11 on WIN-PNFQSO3JBBD with PID 2272 (C:\Users\Robocop\IdeaProjects\demo.restoran\target\classes started by Robocop in C:\Users\Robocop\IdeaProjects\demo.restoran)
+2021-06-14 21:23:07,233 [main] [34m-5level[0;39m project.demo.restoran.Application : No active profile set, falling back to default profiles: default
+2021-06-14 21:23:10,037 [main] [34m-5level[0;39m project.demo.restoran.Application : Started Application in 3.073 seconds (JVM running for 3.71)
+2021-06-14 21:23:22,993 [http-nio-8080-exec-2] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start registrationForm
+2021-06-14 21:23:22,996 [http-nio-8080-exec-2] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end registrationForm
+2021-06-14 21:23:38,085 [http-nio-8080-exec-3] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:25:10,222 [main] [34m-5level[0;39m project.demo.restoran.Application : Starting Application using Java 11.0.11 on WIN-PNFQSO3JBBD with PID 4344 (C:\Users\Robocop\IdeaProjects\demo.restoran\target\classes started by Robocop in C:\Users\Robocop\IdeaProjects\demo.restoran)
+2021-06-14 21:25:10,223 [main] [34m-5level[0;39m project.demo.restoran.Application : No active profile set, falling back to default profiles: default
+2021-06-14 21:25:13,086 [main] [34m-5level[0;39m project.demo.restoran.Application : Started Application in 3.138 seconds (JVM running for 4.006)
+2021-06-14 21:25:15,923 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-14 21:25:15,926 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-14 21:25:16,142 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-14 21:25:16,143 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-14 21:25:18,008 [http-nio-8080-exec-5] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start registrationForm
+2021-06-14 21:25:18,011 [http-nio-8080-exec-5] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end registrationForm
+2021-06-14 21:25:29,970 [http-nio-8080-exec-7] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:31:49,050 [main] [34m-5level[0;39m project.demo.restoran.Application : Starting Application using Java 11.0.11 on WIN-PNFQSO3JBBD with PID 15140 (C:\Users\Robocop\IdeaProjects\demo.restoran\target\classes started by Robocop in C:\Users\Robocop\IdeaProjects\demo.restoran)
+2021-06-14 21:31:49,051 [main] [34m-5level[0;39m project.demo.restoran.Application : No active profile set, falling back to default profiles: default
+2021-06-14 21:31:51,743 [main] [34m-5level[0;39m project.demo.restoran.Application : Started Application in 2.975 seconds (JVM running for 3.599)
+2021-06-14 21:31:58,439 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-14 21:31:58,442 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-14 21:31:59,727 [http-nio-8080-exec-5] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-14 21:31:59,728 [http-nio-8080-exec-5] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-14 21:32:01,768 [http-nio-8080-exec-6] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start registrationForm
+2021-06-14 21:32:01,771 [http-nio-8080-exec-6] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end registrationForm
+2021-06-14 21:32:15,874 [http-nio-8080-exec-4] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:33:55,091 [main] [34m-5level[0;39m project.demo.restoran.Application : Starting Application using Java 11.0.11 on WIN-PNFQSO3JBBD with PID 10800 (C:\Users\Robocop\IdeaProjects\demo.restoran\target\classes started by Robocop in C:\Users\Robocop\IdeaProjects\demo.restoran)
+2021-06-14 21:33:55,092 [main] [34m-5level[0;39m project.demo.restoran.Application : No active profile set, falling back to default profiles: default
+2021-06-14 21:33:57,914 [main] [34m-5level[0;39m project.demo.restoran.Application : Started Application in 3.089 seconds (JVM running for 3.695)
+2021-06-14 21:34:02,637 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-14 21:34:02,640 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-14 21:34:04,585 [http-nio-8080-exec-4] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start registrationForm
+2021-06-14 21:34:04,587 [http-nio-8080-exec-4] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end registrationForm
+2021-06-14 21:34:22,682 [http-nio-8080-exec-6] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:34:22,893 [http-nio-8080-exec-6] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end createUser
+2021-06-14 21:34:22,902 [http-nio-8080-exec-7] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start successRegistration
+2021-06-14 21:34:22,902 [http-nio-8080-exec-7] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end successRegistration
+2021-06-14 21:34:24,845 [http-nio-8080-exec-8] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-14 21:34:24,845 [http-nio-8080-exec-8] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-14 21:34:26,517 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start registrationForm
+2021-06-14 21:34:26,517 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end registrationForm
+2021-06-14 21:34:36,676 [http-nio-8080-exec-2] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:34:36,676 [http-nio-8080-exec-2] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end createUser
+2021-06-14 21:34:40,023 [http-nio-8080-exec-10] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:34:40,093 [http-nio-8080-exec-10] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end createUser
+2021-06-14 21:34:40,097 [http-nio-8080-exec-6] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start successRegistration
+2021-06-14 21:34:40,097 [http-nio-8080-exec-6] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end successRegistration
+2021-06-14 21:34:57,822 [http-nio-8080-exec-7] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-14 21:34:57,822 [http-nio-8080-exec-7] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-14 21:34:59,974 [http-nio-8080-exec-5] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start registrationForm
+2021-06-14 21:34:59,974 [http-nio-8080-exec-5] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end registrationForm
+2021-06-14 21:35:06,598 [http-nio-8080-exec-2] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:35:06,599 [http-nio-8080-exec-2] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end createUser
+2021-06-14 21:36:02,416 [main] [34m-5level[0;39m project.demo.restoran.Application : Starting Application using Java 11.0.11 on WIN-PNFQSO3JBBD with PID 15244 (C:\Users\Robocop\IdeaProjects\demo.restoran\target\classes started by Robocop in C:\Users\Robocop\IdeaProjects\demo.restoran)
+2021-06-14 21:36:02,417 [main] [34m-5level[0;39m project.demo.restoran.Application : No active profile set, falling back to default profiles: default
+2021-06-14 21:36:05,142 [main] [34m-5level[0;39m project.demo.restoran.Application : Started Application in 2.997 seconds (JVM running for 3.621)
+2021-06-14 21:36:09,674 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:36:09,676 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end createUser
+2021-06-14 21:36:20,160 [http-nio-8080-exec-8] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:36:20,160 [http-nio-8080-exec-8] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end createUser
+2021-06-14 21:36:22,882 [http-nio-8080-exec-6] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-14 21:36:22,884 [http-nio-8080-exec-6] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-14 21:36:24,110 [http-nio-8080-exec-3] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start registrationForm
+2021-06-14 21:36:24,110 [http-nio-8080-exec-3] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end registrationForm
+2021-06-14 21:36:44,352 [http-nio-8080-exec-10] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:36:44,352 [http-nio-8080-exec-10] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end createUser
+2021-06-14 21:36:48,119 [http-nio-8080-exec-4] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:36:48,120 [http-nio-8080-exec-4] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end createUser
+2021-06-14 21:36:51,598 [http-nio-8080-exec-5] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:36:51,792 [http-nio-8080-exec-5] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end createUser
+2021-06-14 21:36:51,800 [http-nio-8080-exec-6] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start successRegistration
+2021-06-14 21:36:51,800 [http-nio-8080-exec-6] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end successRegistration
+2021-06-14 21:37:35,844 [main] [34m-5level[0;39m project.demo.restoran.Application : Starting Application using Java 11.0.11 on WIN-PNFQSO3JBBD with PID 14320 (C:\Users\Robocop\IdeaProjects\demo.restoran\target\classes started by Robocop in C:\Users\Robocop\IdeaProjects\demo.restoran)
+2021-06-14 21:37:35,845 [main] [34m-5level[0;39m project.demo.restoran.Application : No active profile set, falling back to default profiles: default
+2021-06-14 21:37:38,592 [main] [34m-5level[0;39m project.demo.restoran.Application : Started Application in 3.015 seconds (JVM running for 3.617)
+2021-06-14 21:37:44,620 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-14 21:37:44,622 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-14 21:37:46,168 [http-nio-8080-exec-4] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start registrationForm
+2021-06-14 21:37:46,171 [http-nio-8080-exec-4] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end registrationForm
+2021-06-14 21:37:55,444 [http-nio-8080-exec-6] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:37:55,624 [http-nio-8080-exec-6] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end createUser
+2021-06-14 21:37:55,633 [http-nio-8080-exec-7] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start successRegistration
+2021-06-14 21:37:55,633 [http-nio-8080-exec-7] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end successRegistration
+2021-06-14 21:37:56,956 [http-nio-8080-exec-8] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start showMainMenu
+2021-06-14 21:37:56,957 [http-nio-8080-exec-8] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end showMainMenu
+2021-06-14 21:45:42,817 [main] [34m-5level[0;39m project.demo.restoran.Application : Starting Application using Java 11.0.11 on WIN-PNFQSO3JBBD with PID 10160 (C:\Users\Robocop\IdeaProjects\demo.restoran\target\classes started by Robocop in C:\Users\Robocop\IdeaProjects\demo.restoran)
+2021-06-14 21:45:42,818 [main] [34m-5level[0;39m project.demo.restoran.Application : No active profile set, falling back to default profiles: default
+2021-06-14 21:45:45,609 [main] [34m-5level[0;39m project.demo.restoran.Application : Started Application in 3.071 seconds (JVM running for 3.734)
+2021-06-14 21:45:45,717 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start registrationForm
+2021-06-14 21:45:45,720 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end registrationForm
+2021-06-14 21:45:55,517 [http-nio-8080-exec-3] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:50:56,034 [main] [34m-5level[0;39m project.demo.restoran.Application : Starting Application using Java 11.0.11 on WIN-PNFQSO3JBBD with PID 828 (C:\Users\Robocop\IdeaProjects\demo.restoran\target\classes started by Robocop in C:\Users\Robocop\IdeaProjects\demo.restoran)
+2021-06-14 21:50:56,035 [main] [34m-5level[0;39m project.demo.restoran.Application : No active profile set, falling back to default profiles: default
+2021-06-14 21:50:58,750 [main] [34m-5level[0;39m project.demo.restoran.Application : Started Application in 2.983 seconds (JVM running for 3.604)
+2021-06-14 21:51:01,779 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start registrationForm
+2021-06-14 21:51:01,781 [http-nio-8080-exec-1] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end registrationForm
+2021-06-14 21:51:05,168 [http-nio-8080-exec-8] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser
+2021-06-14 21:51:05,168 [http-nio-8080-exec-8] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : end createUser
+2021-06-14 21:51:09,015 [http-nio-8080-exec-3] [34m-5level[0;39m project.demo.restoran.aspect.LoggingAspect : start createUser

@@ -44,6 +44,7 @@ public class Registration {
             model.addAttribute("usernameError", "Пользователь с таким именем уже существует");
             return "registration/registration-page";
         }
+
         userServiceImpl.save(user);
         return "redirect:/registration/success";
     }
