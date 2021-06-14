@@ -1,18 +1,26 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
     <title>Authorization</title>
-
+    <link rel="stylesheet" href="/css/login.css">
 </head>
 <body>
-
-<form th:action="@{/auth/login}" method="post">
-    <div><label> User Name : <input type="text" name="username"/> </label></div>
-    <div><label> Password: <input type="password" name="password"/> </label></div>
-    <div><input type="submit" value="Sign In"/></div>
+<h2>Страница авторизации</h2>
+<br/>
+<br/>
+<br/>
+<br/>
+<div >
+<form action="/auth/login" method="post">
+    <label>Имя пользователя :</label>
+    <input type="text" name="username"/>
+    <label>Пароль</label>
+    <input type="password" name="password"/>
+    <div><input type="submit" value="Вход"/></div>
 </form>
+</div>
+<input type="button" value="Вернуться"
+       onclick="window.location.href='/'">
 <br>
-<a href="/">вернуться на главную страницу</a>
 </body>
 </html>

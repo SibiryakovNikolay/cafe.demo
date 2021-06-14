@@ -14,11 +14,11 @@
     <form th:action="@{/reviews}" th:object="${formReview}" th:method="post">
         <label for="name">Имя</label>
         <input type="text" th:field="*{nameGuest}" id="name" placeholder="name"/>
-        <div class="error" th:if="${#fields.hasErrors('nameGuest')}" th:errors="*{nameGuest}">Error</div>
+        <span class="error" th:if="${#fields.hasErrors('nameGuest')}" th:errors="*{nameGuest}">Error</span>
         <br>
         <label for="review">Отзыв</label>
         <textarea class="reviewForm" type="text" th:field="*{review}" id="review"/>
-        <div class="error" th:if="${#fields.hasErrors('review')}" th:errors="*{review}">Error</div>
+        <span class="error" th:if="${#fields.hasErrors('review')}" th:errors="*{review}">Error</span>
         <br>
         <div>
             оценка 1 <input type="radio" th:field="*{grade}" th:value="1"/>

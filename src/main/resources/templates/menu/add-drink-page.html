@@ -15,15 +15,15 @@
             <form th:method="POST" th:action="@{/drinks}" th:object="${formDrink}">
                 <label for="Name">Название</label>
                 <input type="text" th:field="*{name}" id="name" placeholder="name"/>
-                <div class="error" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Error</div>
+                <span class="error" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Error</span>
                 <br/>
                 <label for="bottleVolume">Объем(мл)</label>
                 <input type="text" th:field="*{bottleVolume}" id="bottleVolume" placeholder="bottle volume"/>
-                <div class="error" th:if="${#fields.hasErrors('bottleVolume')}" th:errors="*{bottleVolume}">Error</div>
+                <span class="error" th:if="${#fields.hasErrors('bottleVolume')}" th:errors="*{bottleVolume}">Error</span>
                 <br/>
                 <label for="cost">Цена</label>
                 <input type="text" th:field="*{cost}" id="cost" placeholder="cost"/>
-                <div class="error" th:if="${#fields.hasErrors('cost')}" th:errors="*{cost}">Error</div>
+                <span class="error" th:if="${#fields.hasErrors('cost')}" th:errors="*{cost}">Error</span>
                 <br/>
                 <input type="submit" value="Добавить в меню"/>
                 <br/>

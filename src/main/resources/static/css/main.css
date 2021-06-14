@@ -7,27 +7,40 @@ body {
     background-size: cover;
 }
 
-.wrap { width: 1360px;
+.wrap {
+    width: 1360px;
     margin: auto;
 }
 
-.auth, header, h3 {
-    text-align: center
-}
-h2{  font-size: 35px;
-    text-align: center}
-
 h1 {
+    text-align: center;
     font-size: 45px
 }
+
+.formAuth {
+    text-align:right ;
+}
+
+.auth, h3 {
+    text-align: center
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center
+}
+
 .content {
     float: right;
     width: 80%;
-    height: 500px}
-.content_text{
+    height: 500px
+}
+
+.content_text {
     margin: 10px 10px 10px 40px;
     font-size: 20px;
 }
+
 aside {
     background: #bab5b3;
     float: left;
@@ -35,3 +48,4 @@ aside {
     width: 20%;
     height: 500px;
 }
+

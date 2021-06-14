@@ -1,6 +1,9 @@
 package project.demo.restoran.model.auth;
 
 import javax.persistence.*;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 import java.util.Collection;
 
 @Entity
@@ -9,10 +12,22 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
+    @NotBlank(message = "поле не должно быть пустым")
+    @Size(min = 2, max = 20, message = "имя должно содержать от 2х до 20 символов")
     @Column(name = "username")
     private String username;
+
+    @NotBlank(message = "поле не должно быть пустым")
+    @Size(min = 2, max = 20, message = "пароль должно содержать от 2х до 20 символов")
     @Column(name = "password")
     private String password;
+
+    @Transient
+    private String passwordConfirm;
+
+    @NotBlank(message = "поле не должно быть пустым")
+    @Email(message = "введите корректные данные")
     @Column(name = "email")
     private String email;
     @ManyToMany
@@ -62,5 +77,13 @@ public class User {
 
     public void setRoles(Collection<Role> roles) {
         this.roles = roles;
+    }
+
+    public String getPasswordConfirm() {
+        return passwordConfirm;
+    }
+
+    public void setPasswordConfirm(String passwordConfirm) {
+        this.passwordConfirm = passwordConfirm;
     }
 }

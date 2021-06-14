@@ -15,15 +15,15 @@
             <br/>
             <label for="Name">Название</label>
             <input type="text" th:field="*{name}" id="name" placeholder="название"/>
-            <div class="error" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Error</div>
+            <span class="error" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Error</span>
             <br/>
             <label for="weight">Вес(гр)</label>
             <input type="text" th:field="*{weight}" id="weight" placeholder="цена"/>
-            <div class="error" th:if="${#fields.hasErrors('weight')}" th:errors="*{weight}">Error</div>
+            <span class="error" th:if="${#fields.hasErrors('weight')}" th:errors="*{weight}">Error</span>
             <br/>
             <label for="cost">Цена</label>
             <input type="text" th:field="*{cost}" id="cost" placeholder="цена"/>
-            <div class="error" th:if="${#fields.hasErrors('cost')}" th:errors="*{cost}">Error</div>
+            <span class="error" th:if="${#fields.hasErrors('cost')}" th:errors="*{cost}">Error</span>
             <br/>
             <input type="submit" value="Обновить">
             <br/>

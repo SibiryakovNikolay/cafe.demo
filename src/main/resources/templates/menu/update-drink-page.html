@@ -15,7 +15,7 @@
             <br/>
             <label for="Name">Название</label>
             <input type="text" th:field="*{name}" id="name" placeholder="название"/>
-            <div class="error" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Error</div>
+            <span class="error" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Error</span>
             <br/>
             <label for="bottle_volume">Объем(мл)</label>
             <input type="text" th:field="*{bottleVolume}" id="bottle_volume" placeholder="объем"/>

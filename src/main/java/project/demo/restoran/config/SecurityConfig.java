@@ -27,7 +27,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http
                 .csrf().disable()
                 .authorizeRequests()
-                .antMatchers("/**").permitAll()
+                .antMatchers("/").permitAll()
+                .antMatchers("/reviews").hasAnyRole("USER","ADMIN")
                 .antMatchers("/drink/new").hasRole("ADMIN")
                 .antMatchers("/drink/update").hasRole("ADMIN")
                 .antMatchers("/drink/delete/**").hasRole("ADMIN")
@@ -62,14 +63,4 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         return new BCryptPasswordEncoder(12);
     }
 }
-//    @Bean
-//    @Override
-//    public UserDetailsService userDetailsServiceBean() throws Exception {
-//        return new InMemoryUserDetailsManager(
-//                User.builder()
-//                .username("admin")
-//                .password(passwordEncoder().encode("admin"))
-//                .roles("ADMIN")
-//                .build()
-//        );
-//    }
+

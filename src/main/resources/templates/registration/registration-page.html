@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/css/registration.css">
+</head>
+<body>
+<h1>Страница регистрации</h1>
+<br/>
+<br/>
+<br/>
+<div class="container">
+<form th:method="POST" th:action="@{/registration}" th:object="${userForm}">
+    <label for="name">Имя пользователя</label>
+    <input type="text" th:field="*{username}" id="name" placeholder="имя пользователя"/>
+    <span class="error" th:if="${#fields.hasErrors('username')}" th:errors="*{username}">Error</span>
+    <span th:text="${usernameError}"></span>
+    <br/>
+    <br/>
+    <label for="pass">Пароль</label>
+    <input type="password" th:field="*{password}" id="pass" placeholder="пароль"/>
+    <br/>
+    <br/>
+    <label for="passConfirm">Подтверждение</label>
+    <input type="password" th:field="*{passwordConfirm}" id="passConfirm" placeholder="подтверждение"/>
+    <span class="error" th:if="${#fields.hasErrors('password')}" th:errors="*{password}">Error</span>
+    <span th:text="${passwordError}"></span>
+    <br/>
+    <br/>
+    <label for="email">email</label>
+    <input type="text" th:field="*{email}" id="email" placeholder="email"/>
+    <span class="error" th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Error</span>
+    <br/>
+    <div/>
+    <br/>
+    <input type="submit" value="Зарегистрироать"/>
+    <input type="reset" value="Очистить"/>
+    <br/>
+    <input type="button" value="Вернуться"
+           onclick="window.location.href='/'">
+    <br>
+    <br/>
+</form>
+</body>
+</html>
