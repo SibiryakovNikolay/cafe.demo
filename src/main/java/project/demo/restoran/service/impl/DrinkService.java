@@ -1,15 +1,16 @@
-package project.demo.restoran.service;
+package project.demo.restoran.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import project.demo.restoran.model.menu.DrinkMenu;
 import project.demo.restoran.repository.DrinkRepo;
+import project.demo.restoran.service.RestoranService;
 
 import java.util.List;
 import java.util.Optional;
 
 @Service
-public class DrinkService implements RestoranService<DrinkMenu>{
+public class DrinkService implements RestoranService<DrinkMenu> {
     private final DrinkRepo drinkRepo;
 
     @Autowired

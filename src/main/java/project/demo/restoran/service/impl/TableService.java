@@ -1,9 +1,10 @@
-package project.demo.restoran.service;
+package project.demo.restoran.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import project.demo.restoran.repository.TableRepo;
 import project.demo.restoran.model.Tables;
+import project.demo.restoran.service.RestoranService;
 
 import java.util.List;
 import java.util.Optional;
